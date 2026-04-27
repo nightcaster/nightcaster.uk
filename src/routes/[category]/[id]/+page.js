@@ -28,8 +28,14 @@ export async function load({ params }) {
         throw error(404, 'Photo not found');
     }
 
+    // Load manifest to get orientation
+    const manifest = (await import('$lib/data/manifest.json')).default;
+    const details = manifest[photo.filename];
+    const orientation = details?.orientation || 'landscape';
+
     return {
         photo,
-        category
+        category,
+        orientation
     };
 }

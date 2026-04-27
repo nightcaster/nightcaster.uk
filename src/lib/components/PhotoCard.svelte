@@ -1,12 +1,16 @@
 <script>
   import { base } from '$app/paths';
   let { photo, category } = $props();
+  const getOptimizedUrl = (filename, type) => {
+    const baseName = filename.split('.').slice(0, -1).join('.');
+    return `${base}/optimized/${baseName}-${type}.webp`;
+  };
 </script>
 
 <div class="group relative overflow-hidden rounded-xl bg-gray-900 border border-white/5 transition-all duration-500 hover:border-indigo-500/50 hover:shadow-[0_0_30px_rgba(79,70,229,0.2)]">
   <div class="aspect-square overflow-hidden bg-gray-950">
     <img 
-      src="{base}/images/{photo.filename}" 
+      src={getOptimizedUrl(photo.filename, 'thumbnail')} 
       alt={photo.title} 
       class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
       loading="lazy"

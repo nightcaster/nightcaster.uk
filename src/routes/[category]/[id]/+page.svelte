@@ -2,10 +2,15 @@
   import { base } from '$app/paths';
   
   let { data } = $props();
-  const { photo, category } = data;
+  const { photo, category, orientation } = data;
   
   // Format category name for display
   const categoryDisplay = category.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+  const getOptimizedUrl = (filename, type) => {
+    const baseName = filename.split('.').slice(0, -1).join('.');
+    return `${base}/optimized/${baseName}-${type}.webp`;
+  };
 </script>
 
 <svelte:head>
@@ -24,11 +29,13 @@
     </a>
   </nav>
 
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+  <div class={orientation === 'portrait' ? 'grid grid-cols-1 lg:grid-cols-12 gap-12 items-start' : 'flex flex-col gap-12'}>
     <!-- Image Section -->
-    <div class="lg:col-span-8 group relative overflow-hidden rounded-3xl bg-gray-950 border border-white/5 shadow-2xl">
+    <div class={orientation === 'portrait' ? 'lg:col-span-8 group relative overflow-hidden rounded-3xl bg-gray-950 border border-white/5 shadow-2xl' : 'w-full group relative overflow-hidden rounded-3xl bg-gray-950 border border-white/5 shadow-2xl'}>
       <img 
-        src="{base}/images/{photo.filename}" 
+        src={getOptimizedUrl(photo.filename, 'preview')} 
+        srcset="{getOptimizedUrl(photo.filename, 'preview')} 1200w, {getOptimizedUrl(photo.filename, 'large')} 2000w"
+        sizes={orientation === 'portrait' ? '(max-width: 1024px) 100vw, 800px' : '100vw'}
         alt={photo.title} 
         class="w-full h-auto object-contain max-h-[80vh] mx-auto"
       />
@@ -38,7 +45,7 @@
     </div>
 
     <!-- Info Section -->
-    <div class="lg:col-span-4 space-y-8 lg:sticky lg:top-32">
+    <div class={orientation === 'portrait' ? 'lg:col-span-4 space-y-8 lg:sticky lg:top-32' : 'w-full max-w-4xl space-y-8'}>
       <div>
         <h1 class="text-4xl md:text-5xl font-black tracking-tighter text-white mb-4">
           {photo.title}

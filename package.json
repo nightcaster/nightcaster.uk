@@ -5,6 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
+		"optimize-images": "node scripts/optimize-images.js",
+		"prebuild": "npm run optimize-images",
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
@@ -17,6 +19,7 @@
 		"@sveltejs/kit": "^2.57.0",
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"@tailwindcss/vite": "^4.2.2",
+		"sharp": "^0.34.5",
 		"svelte": "^5.55.2",
 		"svelte-check": "^4.4.6",
 		"tailwindcss": "^4.2.2",
