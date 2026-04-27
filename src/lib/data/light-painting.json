@@ -2,10 +2,18 @@
   {
     "id": "ashover-light-railway",
     "title": "Ashover Light Railway",
-    "description": "",
+    "description": "Located in Fallgate, Ashover, these derelict huts and single length of track are all that remain of this part of the Ashover Light Railway. The railway was closed on 31st March 1950 however a small length remained in place around the Fallgate works and continued to be used until 1968. The heritage of the Ashover Light Railway is now being preserved by the Ashover Light Railway Society, now based in Rowsley. Multiple flash strobes were used to light the huts from the inside and a combination of flash strobes and a flashlight were used to paint the exterior with light.",
     "filename": "light-painting/ashover-light-railway.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "180 sec",
+      "aperture": "f/13.0",
+      "iso": "160",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "floating-calmly",
@@ -18,74 +26,146 @@
   {
     "id": "for-amy",
     "title": "For Amy",
-    "description": "",
+    "description": "I have done a number of weddings as an official photographer, so when I got married I obviously wanted to take a couple of special pictures in my own style. Unfortunately I only had chance to take the one photo, with only a few minutes to set up and take the picture. Slightly inebriated I took 3 remotely triggered flashguns and placed them along the edge of the treeline angled upwards. With my wife in the scene I positioned a fourth flashgun on the floor behind as a backlight. I took a test exposure to make sure everything was aligned and then ran into the shot. Our official photographer was then tasked with triggering the shutter.",
     "filename": "light-painting/for-amy.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/30 sec",
+      "aperture": "f/4.0",
+      "iso": "500",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 6d ."
+    }
   },
   {
     "id": "purple-stone",
     "title": "Purple Stone",
-    "description": "",
+    "description": "I spent a lot of my childhood and adolescence at The Fabric, otherwise known as Ashover Rock. It is somewhere that is very special to me, which might explain why I love to light paint it. At 229 meters above sea level, the Fabrick sits high above the village of Ashover and provides views as far as Lincoln Cathedral, over 40 miles away, when conditions are good. Taken towards the end of the blue hour the rock is simply lit with a flashlight from a single angle.",
     "filename": "light-painting/purple-stone.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "0.4 sec",
+      "aperture": "f/4.0",
+      "iso": "160",
+      "focal_length": "40mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "ravensnest-copse",
     "title": "Ravensnest Copse",
-    "description": "",
+    "description": "A copse is a small group of trees, and this particular one can be found near Ravensnest Tor, Ashover. The trees were lit using a single flashlight aimed directly upwards under the trees as I walked along the side of the wall while the shutter was open. A remote timer release really helped as I could get into position and trigger the shutter when ready.",
     "filename": "light-painting/ravensnest-copse.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "25 sec",
+      "aperture": "f/2.8",
+      "iso": "800",
+      "focal_length": "14mm",
+      "lens": "samyang 14mm f2.8",
+      "camera": "canon eos 6d ."
+    }
   },
   {
     "id": "sola-arbor",
     "title": "Sola Arbor",
-    "description": "",
+    "description": "Sola Arbor translates from Latin as \"Lonely Tree\". This beautiful tree sits alone on the top of a gentle hill, making it really stand out as the landscape falls away behind it. The tree was lit using two flashguns off to the right of the tree just over the brow of the hill to hide them from the camera. One was set to a tight beam with a yellow filter and aimed towards the top of the tree. The other was set to a wide spread with an orange filter and aimed towards the base/middle of the tree. A flashlight was used off to the right of the frame to paint in the foreground.",
     "filename": "light-painting/sola-arbor.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "15 sec",
+      "aperture": "f/4.0",
+      "iso": "1600",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 6d ."
+    }
   },
   {
     "id": "star-guide",
     "title": "Star Guide",
-    "description": "",
+    "description": "Turning Stone Edge sits within Matlock Forest and features stunning views to the East out over Ogston Reservoir. Within the forest lies this tree, which was using it's branches to point at the constellation of the big dipper in the sky above. The tree was lit using a combination of flashlight and strobe and the glow in the forest behind was caused by a campfire that some really friendly local people use regularly.",
     "filename": "light-painting/star-guide.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "30 sec",
+      "aperture": "f/2.8",
+      "iso": "1600",
+      "focal_length": "14mm",
+      "lens": "samyang 14mm f2.8",
+      "camera": "canon eos 6d ."
+    }
   },
   {
     "id": "sutton-scarsdale-hall",
     "title": "Sutton Scarsdale Hall",
-    "description": "",
+    "description": "Built between 1724 and 1729 Sutton Scarsdale hall has been roofless since 1919. Featuring an exterior carved from mellow sandstone by Edward Poynton of Nottingham the hall is currently preserved by English Heritage. The image was simply lit with a single flashlight.",
     "filename": "light-painting/sutton-scarsdale-hall.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "50 sec",
+      "aperture": "f/5.0",
+      "iso": "400",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "swings-in-time",
     "title": "Swings In Time",
-    "description": "",
+    "description": "Ashover village playground has changed a lot since I used to play there as a child. All the old climbing frame, see-saw and large slide have gone, replaced with modern safety conscious alternatives. When viewed at a glance changes may be sharp and obvious, but look for a while and you start to notice the similarities. Multiple flash strobes were used to freeze the motion of the swings and allow the image to be taken in a single exposure.",
     "filename": "light-painting/swings-in-time.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "60 sec",
+      "aperture": "f/6.3",
+      "iso": "125",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "syzygy-over-barn",
     "title": "Syzygy Over Barn",
-    "description": "",
+    "description": "A syzygy is an astronomical term for a conjunction or opposition. On the night this photo was taken Venus, Mars and the Moon were all in a straight line in the sky. Venus can be seen as the brightest object after the moon just above the left of the barn. Mars is the red dot that can be found by drawing a line directly from Venus through the Moon. The barn was lit using a remote flash inside the barn hidden behind one of the support poles, and another off to the left of the frame. A flashlight with a yellow gel was used to light the exterior of the barn.",
     "filename": "light-painting/syzygy-over-barn.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "16 sec",
+      "aperture": "f/4.0",
+      "iso": "1600",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 6d ."
+    }
   },
   {
     "id": "the-band",
     "title": "The Band",
-    "description": "",
+    "description": "A single flashgun was used to create multiple strobes behind the band members as they moved around in place. The use of a shutter delay timer allowed me time to get into position and a long exposure gave enough time to move around in the background and manually strobe the flash.",
     "filename": "light-painting/the-band.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "20 sec",
+      "aperture": "f/4.0",
+      "iso": "640",
+      "focal_length": "60mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "the-fabric",
@@ -106,9 +186,17 @@
   {
     "id": "tree-of-light",
     "title": "Tree Of Light",
-    "description": "",
+    "description": "Located around Hardwick Hall ponds are various carved wooden sculptures and signposts. This simple sculpture contains strips of acrylic sheet embedded within that reach from one side to the next. These act to channel light through them. The background was lit with a flashlight and the sculpture was backlit with the same flashlight to light up the acrylic.",
     "filename": "light-painting/tree-of-light.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "50 sec",
+      "aperture": "f/4.5",
+      "iso": "400",
+      "focal_length": "35mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   }
 ]

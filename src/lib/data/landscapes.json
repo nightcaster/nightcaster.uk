@@ -2,121 +2,240 @@
   {
     "id": "fishermans-forgotten-friend",
     "title": "Fishermans Forgotten Friend",
-    "description": "",
+    "description": "Far from the shoreline on a beach in Norfolk lies this derelict boat.\nProcessed to black and white to add focus to the large range of textures within the image.",
     "filename": "landscapes/fishermans-forgotten-friend.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/200 sec",
+      "aperture": "f/11.0",
+      "iso": "400",
+      "focal_length": "28mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   },
   {
     "id": "hallin-fell",
     "title": "Hallin Fell",
-    "description": "",
+    "description": "The large cairn at the peak of Hallin Fell near Ullswater in Cumbria is bathed in the last sunlight of the day.",
     "filename": "landscapes/hallin-fell.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/20 sec",
+      "aperture": "f/9.0",
+      "iso": "100",
+      "focal_length": "200mm",
+      "lens": "ef70-200mm f/4l",
+      "camera": "canon eos 6d ."
+    }
   },
   {
     "id": "helping-hand",
     "title": "Helping Hand",
-    "description": "",
+    "description": "Exploring Ashover Rock (otherwise known as the Fabrick) is fascinating for people of all ages. There's much more to discover than might be immediately visible. Luckily I was there to take this picture as a Grandfather helped his Grandson down from the top of the rock after a thorough investigation.",
     "filename": "landscapes/helping-hand.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/50 sec",
+      "aperture": "f/13.0",
+      "iso": "160",
+      "focal_length": "47mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
-    "id": "hotizon-on-fire",
-    "title": "Hotizon On Fire",
-    "description": "",
-    "filename": "landscapes/hotizon-on-fire.jpg",
+    "id": "horizon-on-fire",
+    "title": "Horizon on Fire",
+    "description": "Looking into the sunset as the sun falls behind the far treeline. It almost looks as if the horizon is ablaze.\nTaken in 2005.",
+    "filename": "landscapes/horizon-on-fire.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/640 sec",
+      "aperture": "f/8.0",
+      "iso": "100",
+      "focal_length": "414mm",
+      "camera": "cybershot"
+    }
   },
   {
     "id": "into-the-mist",
     "title": "Into The Mist",
-    "description": "",
+    "description": "I have only ever visted the Goyt Valley once that I can rembember, as we popped by on the journey to a weekend away. Visibility was extremely low but I really liked the way the dam at Errwood Reservoir disappeared into the fog.",
     "filename": "landscapes/into-the-mist.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/13 sec",
+      "aperture": "f/16.0",
+      "iso": "160",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "leaves",
     "title": "Leaves",
-    "description": "",
+    "description": "Sitting atop countless submerged leaves lies a single maple leaf, still floating gently on the waters surface. A small bead of water has been trapped on top of the leaf.",
     "filename": "landscapes/leaves.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/320 sec",
+      "aperture": "f/29.0",
+      "iso": "640",
+      "focal_length": "109mm",
+      "lens": "ef70-200mm f/4l",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "misty-fells",
     "title": "Misty Fells",
-    "description": "",
+    "description": "Looking towards Hallin Fell in the Lake District the misty weather sits in the valleys between the peaks. The large cairn at the peak of Hallin Fell can be seen beneath the dramatic clouds.",
     "filename": "landscapes/misty-fells.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/40 sec",
+      "aperture": "f/8.0",
+      "iso": "100",
+      "focal_length": "105mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 6d ."
+    }
   },
   {
     "id": "mixed-media",
     "title": "Mixed Media",
-    "description": "",
+    "description": "A simple tightly framed photograph of an old barn. The use of black and white takes the focus away from the subject and serves to really highlight the different textures within the image.",
     "filename": "landscapes/mixed-media.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/125 sec",
+      "aperture": "f/6.3",
+      "iso": "160",
+      "focal_length": "60mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   },
   {
     "id": "perched-on-the-edge",
     "title": "Perched On The Edge",
-    "description": "",
+    "description": "When the sun is out during that period most people refer to as \"daytime\" I often find my landscape images become more focused on patterns and textures. I love to get what I call \"wallpaper\" shots, as they are mostly very flat and make ideal desktop wallpapers for the computer. This shot was taken from the car park after a lovely walk down the beach in Norfolk.",
     "filename": "landscapes/perched-on-the-edge.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/400 sec",
+      "aperture": "f/14.0",
+      "iso": "400",
+      "focal_length": "105mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "sheepish-silhouette",
     "title": "Sheepish Silhouette",
-    "description": "",
+    "description": "A single sheep stands, silhouetted against the sunset at Curbar Gap.",
     "filename": "landscapes/sheepish-silhouette.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/200 sec",
+      "aperture": "f/11.0",
+      "iso": "250",
+      "focal_length": "105mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   },
   {
     "id": "standing-before-the-stand",
     "title": "Standing Before The Stand",
-    "description": "",
+    "description": "The memorial tower (also known as Crich Stand) was completed in 1923 and stands to the memory of the soldiers from the Sherwood Foresters Regiment who died in World War I and World War II. The stand is also dedicated to others who have died in service during other conflicts. A simple image showing my friend as he captures the stand from a different angle.",
     "filename": "landscapes/standing-before-the-stand.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/40 sec",
+      "aperture": "f/5.0",
+      "iso": "400",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "twin-trees",
     "title": "Twin Trees",
-    "description": "",
+    "description": "The two trees almost look like they have been mirrored, each growing apart at a similar angle, to a similar height. The last light of a December day makes the haze glow as though it's still sunset, even though the sun had set over 15 minutes before.",
     "filename": "landscapes/twin-trees.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "2 sec",
+      "aperture": "f/9.0",
+      "iso": "125",
+      "focal_length": "105mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d ."
+    }
   },
   {
     "id": "twisted-trees",
     "title": "Twisted Trees",
-    "description": "",
+    "description": "By using a slightly extended shutter speed and rotating the camera around the lens axis while depressing the shutter button you can create some really interesting images.\nThis image was taken in Hardwick wood near Wingerworth.",
     "filename": "landscapes/twisted-trees.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/125 sec",
+      "aperture": "f/13.0",
+      "iso": "100",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   },
   {
     "id": "ullswater-vista",
     "title": "Ullswater Vista",
-    "description": "",
+    "description": "This panoramic of Ullswater in the Lake District was taken from the top of the hill at Aria Force. 3 Images were stitched together to create the panoramic.",
     "filename": "landscapes/ullswater-vista.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/125 sec",
+      "aperture": "f/10.0",
+      "iso": "100",
+      "focal_length": "28mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 6d ."
+    }
   },
   {
     "id": "yfirgefnar",
     "title": "Yfirgefnar",
-    "description": "",
+    "description": "Yfirgefnar means \"abandoned\" in Icelandic.\nThis image was taken during my all to brief mid-winter weekend in Iceland.",
     "filename": "landscapes/yfirgefnar.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/60 sec",
+      "aperture": "f/13.0",
+      "iso": "100",
+      "focal_length": "85mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   }
 ]

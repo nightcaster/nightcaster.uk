@@ -2,97 +2,186 @@
   {
     "id": "belper-mill-bridge",
     "title": "Belper Mill Bridge",
-    "description": "",
+    "description": "Belper Mill is an industrial revolution era cotton mill which is now a Museum and offices. Also known as Strutt's North Mill in Belper, it is one of the Derwent Valley Mills and was given UNESCO World Heritage Status in 2001.",
     "filename": "nightscapes/belper-mill-bridge.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "11 sec",
+      "aperture": "f/13.0",
+      "iso": "100",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   },
   {
     "id": "circles",
     "title": "Circles",
-    "description": "",
+    "description": "The Mollusc sculpture by James Woodford is located outside the main library in Chesterfield. It is cast from bronze and was unveiled in 1964.",
     "filename": "nightscapes/circles.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/4 sec",
+      "aperture": "f/8.0",
+      "iso": "100",
+      "focal_length": "38mm",
+      "camera": "cybershot"
+    }
   },
   {
     "id": "eosophobia",
     "title": "Eosophobia",
-    "description": "",
+    "description": "Eosophobia is a rare morbid fear of dawn or daylight. Taken in 2004 this is one of my first nightscapes.",
     "filename": "nightscapes/eosophobia.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "15 sec",
+      "aperture": "f/4.0",
+      "iso": "800",
+      "focal_length": "408mm",
+      "camera": "cybershot"
+    }
   },
   {
     "id": "heage-windmill",
     "title": "Heage Windmill",
-    "description": "",
+    "description": "Built in 1797 and restored in 2002, Heage Windmill is a Grade II listed building and is the only working six-sailed stone tower windmill in England, set in the Derbyshire countryside.",
     "filename": "nightscapes/heage-windmill.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "4 sec",
+      "aperture": "f/4.5",
+      "iso": "400",
+      "focal_length": "67mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   },
   {
     "id": "impending-doom",
     "title": "Impending Doom",
-    "description": "",
+    "description": "Taken on the moors near sheffield, an impromptu shot shows a car approaching from over a small hill. This photograph is from 2004 and was one of my first nightscapes. I still like the mood that this photograph has and the composition enhances the dark and foreboading feeling.",
     "filename": "nightscapes/impending-doom.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "20 sec",
+      "aperture": "f/2.0",
+      "iso": "100",
+      "focal_length": "97mm",
+      "camera": "cybershot"
+    }
   },
   {
     "id": "lakeside",
     "title": "Lakeside",
-    "description": "",
+    "description": "Taken in 2005 as I had begun to refine my style, this image was a lesson in composition. Just in front of the frame was a small, dark, muddy island and to either side of the trees are homes, signs, lamposts etc.",
     "filename": "nightscapes/lakeside.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "20 sec",
+      "aperture": "f/3.5",
+      "iso": "200",
+      "focal_length": "164mm",
+      "camera": "cybershot"
+    }
   },
   {
     "id": "lunar-eclipse",
     "title": "Lunar Eclipse",
-    "description": "",
+    "description": "The rare blood moon supermoon total lunar eclipse from September 2015. Taken from the edge of Hardwick wood near Wingerworth.",
     "filename": "nightscapes/lunar-eclipse.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "0.8 sec",
+      "iso": "6400",
+      "camera": "canon eos 6d"
+    }
   },
   {
-    "id": "stainsby-06",
-    "title": "Stainsby 06",
-    "description": "",
-    "filename": "nightscapes/stainsby-06.jpg",
+    "id": "stainsby-2006",
+    "title": "Stainsby 2006",
+    "description": "The Stainsby Festival is a small, well-established and intimate festival in Derbyshire. It is a family-friendly event with a wide variety of music, workshops, and entertainment. This photograph captures a group of friends sitting around outside a tent as the sun begins to set.",
+    "filename": "nightscapes/stainsby-2006.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "15 sec",
+      "aperture": "f/4.0",
+      "iso": "800",
+      "focal_length": "16mm",
+      "lens": "ef16-35mm f/2.8l usm",
+      "camera": "canon eos 5d"
+    }
   },
   {
     "id": "star-disk",
     "title": "Star Disk",
-    "description": "",
+    "description": "The StarDisc in Wirksworth was unveiled on September 10th 2011 and offers a 21st century interpretation of a stone circle. Created from black granite the disk is surrounded by 12 illuminated benches and features a star chart carved into the main disk. It provides an excellent vantage point for star gazing and a beautiful view of the surrounding landscape. No additional lighting was added to the exposure, all LEDs and light sources are part of the StarDisc itself.",
     "filename": "nightscapes/star-disk.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "30 sec",
+      "aperture": "f/5.0",
+      "iso": "1600",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 6d"
+    }
   },
   {
     "id": "star-gazer",
     "title": "Star Gazer",
-    "description": "",
+    "description": "The StarDisc in Wirksworth was unveiled on September 10th 2011 and offers a 21st century interpretation of a stone circle. Created from black granite the disk is surrounded by 12 illuminated benches and features a star chart carved into the main disk. It provides an excellent vantage point for star gazing and a beautiful view of the surrounding landscape. No additional lighting was added to the exposure, all LEDs and light sources are part of the StarDisc itself.",
     "filename": "nightscapes/star-gazer.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "25 sec",
+      "aperture": "f/5.0",
+      "iso": "1600",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 6d"
+    }
   },
   {
-    "id": "summer-solstace",
-    "title": "Summer Solstace",
-    "description": "",
-    "filename": "nightscapes/summer-solstace.jpg",
+    "id": "summer-solstice",
+    "title": "Summer Solstice",
+    "description": "The 2009 summer solstice landed on a Saturday and as a result saw a record number of over 36,500 people attending Stonehenge. This long exposure nightscape has technically been light painted, with lasers shone on the stones and coloured leds dancing throughout the frame. As none of this was intentional or added by myself I consider this a nightscape.",
+    "filename": "nightscapes/summer-solstice.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "40 sec",
+      "aperture": "f/7.1",
+      "iso": "320",
+      "focal_length": "24mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   },
   {
     "id": "trapped",
     "title": "Trapped",
-    "description": "",
+    "description": "Sutton Scarsdale Hall was a stately home in Derbyshire. It was built in 1724 but was sadly gutted in 1919 and has been a ruin ever since. It is now managed by English Heritage. This image was taken from within the ruin, looking out through a window at a tree.",
     "filename": "nightscapes/trapped.jpg",
     "date": "",
-    "location": ""
+    "location": "",
+    "exif": {
+      "shutter_speed": "1/125 sec",
+      "aperture": "f/5.6",
+      "iso": "100",
+      "focal_length": "32mm",
+      "lens": "ef24-105mm f/4l is",
+      "camera": "canon eos 5d"
+    }
   }
 ]
