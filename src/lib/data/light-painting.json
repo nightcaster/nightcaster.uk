@@ -13,7 +13,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d ."
-    }
+    },
+    "meta_description": "The last remnants of the Ashover Light Railway in Fallgate, Ashover."
   },
   {
     "id": "floating-calmly",
@@ -37,7 +38,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 6d ."
-    }
+    },
+    "meta_description": "Using flash strobes to light up a treeline behind a bride and groom."
   },
   {
     "id": "purple-stone",
@@ -53,7 +55,8 @@
       "focal_length": "40mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d ."
-    }
+    },
+    "meta_description": "Ashover Rock, also known as The Fabrick, lit up by a flashlight at the end of the blue hour."
   },
   {
     "id": "ravensnest-copse",
@@ -69,7 +72,8 @@
       "focal_length": "14mm",
       "lens": "samyang 14mm f2.8",
       "camera": "canon eos 6d ."
-    }
+    },
+    "meta_description": "Light painting a copse of trees against a night sky full of stars."
   },
   {
     "id": "sola-arbor",
@@ -85,7 +89,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 6d ."
-    }
+    },
+    "meta_description": "A lone tree stands on a hill, lit by flashguns and a flashlight, under a starry night sky."
   },
   {
     "id": "star-guide",
@@ -101,7 +106,8 @@
       "focal_length": "14mm",
       "lens": "samyang 14mm f2.8",
       "camera": "canon eos 6d ."
-    }
+    },
+    "meta_description": "A set of twisted branches from a fallen tree point towards the big dipper in the sky above."
   },
   {
     "id": "sutton-scarsdale-hall",
@@ -117,7 +123,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d ."
-    }
+    },
+    "meta_description": "Sutton Scarsdale Hall stands, lit up, in front of a dramatic night sky."
   },
   {
     "id": "swings-in-time",
@@ -133,7 +140,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d ."
-    }
+    },
+    "meta_description": "A photograph of some swings frozen in time using light painting, set against a backdrop of stars and dramatic clouds."
   },
   {
     "id": "syzygy-over-barn",
@@ -149,7 +157,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 6d ."
-    }
+    },
+    "meta_description": "Light painting a derelict barn as a syzygy of the Moon, Venus and Mars takes place in the sky above."
   },
   {
     "id": "the-band",
@@ -165,7 +174,8 @@
       "focal_length": "60mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d ."
-    }
+    },
+    "meta_description": "Light painting a local band using multiple flashes in a single long exposure."
   },
   {
     "id": "the-fabric",
@@ -197,6 +207,7 @@
       "focal_length": "35mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d ."
-    }
+    },
+    "meta_description": "Backlit acrylic within a wooden sculpture found at Hardwick Hall, Derbyshire."
   }
 ]

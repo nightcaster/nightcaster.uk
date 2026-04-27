@@ -13,7 +13,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d"
-    }
+    },
+    "meta_description": "The road passes under a bridge with offices above."
   },
   {
     "id": "circles",
@@ -28,7 +29,8 @@
       "iso": "100",
       "focal_length": "38mm",
       "camera": "cybershot"
-    }
+    },
+    "meta_description": "A close up of the Mollusc sculpture in Chesterfield, Derbyshire"
   },
   {
     "id": "eosophobia",
@@ -43,7 +45,8 @@
       "iso": "800",
       "focal_length": "408mm",
       "camera": "cybershot"
-    }
+    },
+    "meta_description": "A silhouette stands in front of a burning sky"
   },
   {
     "id": "heage-windmill",
@@ -59,7 +62,8 @@
       "focal_length": "67mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d"
-    }
+    },
+    "meta_description": "The windmill at Heage stands in front of a graduated night sky"
   },
   {
     "id": "impending-doom",
@@ -74,7 +78,8 @@
       "iso": "100",
       "focal_length": "97mm",
       "camera": "cybershot"
-    }
+    },
+    "meta_description": "A car crests a hill on the moors near Sheffield"
   },
   {
     "id": "lakeside",
@@ -89,7 +94,8 @@
       "iso": "200",
       "focal_length": "164mm",
       "camera": "cybershot"
-    }
+    },
+    "meta_description": "Some trees are reflected in a pond to create a circle"
   },
   {
     "id": "lunar-eclipse",
@@ -102,7 +108,8 @@
       "shutter_speed": "0.8 sec",
       "iso": "6400",
       "camera": "canon eos 6d"
-    }
+    },
+    "meta_description": "The rare blood moon supermoon total lunar eclipse from September 2015"
   },
   {
     "id": "stainsby-2006",
@@ -118,7 +125,8 @@
       "focal_length": "16mm",
       "lens": "ef16-35mm f/2.8l usm",
       "camera": "canon eos 5d"
-    }
+    },
+    "meta_description": "A group of friends sit around outside a tent at Stainsby 2006"
   },
   {
     "id": "star-disk",
@@ -134,7 +142,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 6d"
-    }
+    },
+    "meta_description": "A photo showing the view whilst at the StarDisk in Wirksworth, Derbyshire"
   },
   {
     "id": "star-gazer",
@@ -150,7 +159,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 6d"
-    }
+    },
+    "meta_description": "A photo showing someone gazing at the stars whilst at the StarDisk in Wirksworth, Derbyshire"
   },
   {
     "id": "summer-solstice",
@@ -166,7 +176,8 @@
       "focal_length": "24mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d"
-    }
+    },
+    "meta_description": "Long exposure of the summer solstice at Stonehenge in 2009"
   },
   {
     "id": "trapped",
@@ -182,6 +193,7 @@
       "focal_length": "32mm",
       "lens": "ef24-105mm f/4l is",
       "camera": "canon eos 5d"
-    }
+    },
+    "meta_description": "A tree viewed from within Sutton Scarsdale Hall"
   }
 ]

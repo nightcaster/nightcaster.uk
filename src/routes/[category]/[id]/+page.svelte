@@ -10,7 +10,7 @@
 
 <svelte:head>
   <title>{photo.title} | Nightcaster.uk</title>
-  <meta name="description" content={photo.description || `Photography from ${categoryDisplay} collection.`} />
+  <meta name="description" content={photo.meta_description || photo.description || `Photography from ${categoryDisplay} collection.`} />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 py-12 md:py-24">
@@ -88,6 +88,50 @@
           </div>
         </div>
       </div>
+
+      {#if photo.exif && Object.keys(photo.exif).length > 0}
+        <div class="pt-8 border-t border-white/10">
+          <h3 class="text-sm uppercase tracking-widest text-gray-500 mb-6">Technical Details</h3>
+          <div class="grid grid-cols-2 gap-y-6 gap-x-4">
+            {#if photo.exif.shutter_speed}
+              <div>
+                <span class="block text-xs text-gray-500 mb-1">Shutter</span>
+                <span class="text-white font-medium">{photo.exif.shutter_speed}</span>
+              </div>
+            {/if}
+            {#if photo.exif.aperture}
+              <div>
+                <span class="block text-xs text-gray-500 mb-1">Aperture</span>
+                <span class="text-white font-medium">{photo.exif.aperture}</span>
+              </div>
+            {/if}
+            {#if photo.exif.iso}
+              <div>
+                <span class="block text-xs text-gray-500 mb-1">ISO</span>
+                <span class="text-white font-medium">{photo.exif.iso}</span>
+              </div>
+            {/if}
+            {#if photo.exif.focal_length}
+              <div>
+                <span class="block text-xs text-gray-500 mb-1">Focal Length</span>
+                <span class="text-white font-medium">{photo.exif.focal_length}</span>
+              </div>
+            {/if}
+            {#if photo.exif.lens}
+              <div class="col-span-2">
+                <span class="block text-xs text-gray-500 mb-1">Lens</span>
+                <span class="text-white font-medium capitalize">{photo.exif.lens}</span>
+              </div>
+            {/if}
+            {#if photo.exif.camera}
+              <div class="col-span-2">
+                <span class="block text-xs text-gray-500 mb-1">Camera</span>
+                <span class="text-white font-medium capitalize">{photo.exif.camera}</span>
+              </div>
+            {/if}
+          </div>
+        </div>
+      {/if}
 
       <div class="pt-10">
         <button class="w-full py-4 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold rounded-2xl transition-all duration-300">
