@@ -1,6 +1,6 @@
 [
   {
-    "id": "ls-1",
+    "id": "fishermans-forgotten-friend",
     "title": "Fishermans Forgotten Friend",
     "description": "",
     "filename": "landscapes/fishermans-forgotten-friend.jpg",
@@ -8,7 +8,7 @@
     "location": ""
   },
   {
-    "id": "ls-2",
+    "id": "hallin-fell",
     "title": "Hallin Fell",
     "description": "",
     "filename": "landscapes/hallin-fell.jpg",
@@ -16,7 +16,7 @@
     "location": ""
   },
   {
-    "id": "ls-3",
+    "id": "helping-hand",
     "title": "Helping Hand",
     "description": "",
     "filename": "landscapes/helping-hand.jpg",
@@ -24,7 +24,7 @@
     "location": ""
   },
   {
-    "id": "ls-4",
+    "id": "hotizon-on-fire",
     "title": "Hotizon On Fire",
     "description": "",
     "filename": "landscapes/hotizon-on-fire.jpg",
@@ -32,7 +32,7 @@
     "location": ""
   },
   {
-    "id": "ls-5",
+    "id": "into-the-mist",
     "title": "Into The Mist",
     "description": "",
     "filename": "landscapes/into-the-mist.jpg",
@@ -40,7 +40,7 @@
     "location": ""
   },
   {
-    "id": "ls-6",
+    "id": "leaves",
     "title": "Leaves",
     "description": "",
     "filename": "landscapes/leaves.jpg",
@@ -48,7 +48,7 @@
     "location": ""
   },
   {
-    "id": "ls-7",
+    "id": "misty-fells",
     "title": "Misty Fells",
     "description": "",
     "filename": "landscapes/misty-fells.jpg",
@@ -56,7 +56,7 @@
     "location": ""
   },
   {
-    "id": "ls-8",
+    "id": "mixed-media",
     "title": "Mixed Media",
     "description": "",
     "filename": "landscapes/mixed-media.jpg",
@@ -64,7 +64,7 @@
     "location": ""
   },
   {
-    "id": "ls-9",
+    "id": "perched-on-the-edge",
     "title": "Perched On The Edge",
     "description": "",
     "filename": "landscapes/perched-on-the-edge.jpg",
@@ -72,7 +72,7 @@
     "location": ""
   },
   {
-    "id": "ls-10",
+    "id": "sheepish-silhouette",
     "title": "Sheepish Silhouette",
     "description": "",
     "filename": "landscapes/sheepish-silhouette.jpg",
@@ -80,7 +80,7 @@
     "location": ""
   },
   {
-    "id": "ls-11",
+    "id": "standing-before-the-stand",
     "title": "Standing Before The Stand",
     "description": "",
     "filename": "landscapes/standing-before-the-stand.jpg",
@@ -88,7 +88,7 @@
     "location": ""
   },
   {
-    "id": "ls-12",
+    "id": "twin-trees",
     "title": "Twin Trees",
     "description": "",
     "filename": "landscapes/twin-trees.jpg",
@@ -96,7 +96,7 @@
     "location": ""
   },
   {
-    "id": "ls-13",
+    "id": "twisted-trees",
     "title": "Twisted Trees",
     "description": "",
     "filename": "landscapes/twisted-trees.jpg",
@@ -104,7 +104,7 @@
     "location": ""
   },
   {
-    "id": "ls-14",
+    "id": "ullswater-vista",
     "title": "Ullswater Vista",
     "description": "",
     "filename": "landscapes/ullswater-vista.jpg",
@@ -112,7 +112,7 @@
     "location": ""
   },
   {
-    "id": "ls-15",
+    "id": "yfirgefnar",
     "title": "Yfirgefnar",
     "description": "",
     "filename": "landscapes/yfirgefnar.jpg",

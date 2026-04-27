@@ -1,6 +1,6 @@
 [
   {
-    "id": "ns-1",
+    "id": "belper-mill-bridge",
     "title": "Belper Mill Bridge",
     "description": "",
     "filename": "nightscapes/belper-mill-bridge.jpg",
@@ -8,7 +8,7 @@
     "location": ""
   },
   {
-    "id": "ns-2",
+    "id": "circles",
     "title": "Circles",
     "description": "",
     "filename": "nightscapes/circles.jpg",
@@ -16,7 +16,7 @@
     "location": ""
   },
   {
-    "id": "ns-3",
+    "id": "eosophobia",
     "title": "Eosophobia",
     "description": "",
     "filename": "nightscapes/eosophobia.jpg",
@@ -24,7 +24,7 @@
     "location": ""
   },
   {
-    "id": "ns-4",
+    "id": "heage-windmill",
     "title": "Heage Windmill",
     "description": "",
     "filename": "nightscapes/heage-windmill.jpg",
@@ -32,7 +32,7 @@
     "location": ""
   },
   {
-    "id": "ns-5",
+    "id": "impending-doom",
     "title": "Impending Doom",
     "description": "",
     "filename": "nightscapes/impending-doom.jpg",
@@ -40,7 +40,7 @@
     "location": ""
   },
   {
-    "id": "ns-6",
+    "id": "lakeside",
     "title": "Lakeside",
     "description": "",
     "filename": "nightscapes/lakeside.jpg",
@@ -48,7 +48,7 @@
     "location": ""
   },
   {
-    "id": "ns-7",
+    "id": "lunar-eclipse",
     "title": "Lunar Eclipse",
     "description": "",
     "filename": "nightscapes/lunar-eclipse.jpg",
@@ -56,7 +56,7 @@
     "location": ""
   },
   {
-    "id": "ns-8",
+    "id": "stainsby-06",
     "title": "Stainsby 06",
     "description": "",
     "filename": "nightscapes/stainsby-06.jpg",
@@ -64,7 +64,7 @@
     "location": ""
   },
   {
-    "id": "ns-9",
+    "id": "star-disk",
     "title": "Star Disk",
     "description": "",
     "filename": "nightscapes/star-disk.jpg",
@@ -72,7 +72,7 @@
     "location": ""
   },
   {
-    "id": "ns-10",
+    "id": "star-gazer",
     "title": "Star Gazer",
     "description": "",
     "filename": "nightscapes/star-gazer.jpg",
@@ -80,7 +80,7 @@
     "location": ""
   },
   {
-    "id": "ns-11",
+    "id": "summer-solstace",
     "title": "Summer Solstace",
     "description": "",
     "filename": "nightscapes/summer-solstace.jpg",
@@ -88,7 +88,7 @@
     "location": ""
   },
   {
-    "id": "ns-12",
+    "id": "trapped",
     "title": "Trapped",
     "description": "",
     "filename": "nightscapes/trapped.jpg",

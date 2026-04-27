@@ -1,6 +1,6 @@
 <script>
   import { base } from '$app/paths';
-  let { photo } = $props();
+  let { photo, category } = $props();
 </script>
 
 <div class="group relative overflow-hidden rounded-xl bg-gray-900 border border-white/5 transition-all duration-500 hover:border-indigo-500/50 hover:shadow-[0_0_30px_rgba(79,70,229,0.2)]">
@@ -23,9 +23,12 @@
       </p>
     {/if}
     <div class="flex gap-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-150">
-      <button class="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-full hover:bg-indigo-500 transition-colors">
+      <a 
+        href="{base}/{category}/{photo.id}" 
+        class="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-full hover:bg-indigo-500 transition-colors"
+      >
         View Details
-      </button>
+      </a>
     </div>
   </div>
 </div>

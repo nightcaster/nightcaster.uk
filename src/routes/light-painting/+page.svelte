@@ -11,5 +11,5 @@
     </p>
   </header>
 
-  <PhotoGrid {photos} />
+  <PhotoGrid {photos} category="light-painting" />
 </div>
