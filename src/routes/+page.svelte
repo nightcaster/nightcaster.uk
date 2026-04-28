@@ -15,7 +15,7 @@
       class="text-5xl md:text-8xl font-black tracking-tighter text-white mb-6"
     >
       CAPTURING THE <span
-        class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-500"
+        class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-500 inline-block pr-1"
         >DARKNESS</span
       >
     </h1>

@@ -6,9 +6,17 @@
 }
 
 @layer base {
+  @font-face {
+    font-family: 'Raveo';
+    src: url('/fonts/RaveoVF.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
   body {
     @apply bg-black text-gray-100 antialiased;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: 'Raveo', system-ui, -apple-system, sans-serif;
   }
 }
 
