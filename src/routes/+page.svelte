@@ -1,3 +1,11 @@
+<svelte:head>
+  <title>Nightcaster Photography | Light Painting, Nightscapes & Landscapes</title>
+  <meta name="description" content="Exploring the intersection of light and shadow through long exposure, nightscapes, and light painting photography by Danni." />
+  <meta property="og:title" content="Nightcaster Photography | Light Painting, Nightscapes & Landscapes" />
+  <meta property="og:description" content="Exploring the intersection of light and shadow through long exposure, nightscapes, and light painting photography by Danni." />
+  <meta property="og:type" content="website" />
+</svelte:head>
+
 <section
   class="relative h-[80vh] flex items-center justify-center overflow-hidden"
 >

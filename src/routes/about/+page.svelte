@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>About Nightcaster | Photography by Danni</title>
+  <meta name="description" content="Learn about Danni, the artist behind Nightcaster Photography. Specializing in long exposure, nightscapes, and light painting in the UK." />
+</svelte:head>
+
 <div class="max-w-4xl mx-auto px-4 py-12">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     <div class="aspect-square bg-gray-900 rounded-2xl overflow-hidden border border-white/5">

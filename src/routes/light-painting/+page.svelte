@@ -3,6 +3,11 @@
   import photos from '$lib/data/light-painting.json';
 </script>
 
+<svelte:head>
+  <title>Light Painting Gallery | Nightcaster Photography</title>
+  <meta name="description" content="Manipulating light in long exposure to create ethereal forms and vibrant patterns. A gallery of light painting photography." />
+</svelte:head>
+
 <div class="max-w-7xl mx-auto px-4 py-12">
   <header class="mb-12">
     <h1 class="text-4xl md:text-6xl font-bold mb-4">Light Painting</h1>

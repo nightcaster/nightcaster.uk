@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Contact Nightcaster | Get in Touch</title>
+  <meta name="description" content="Have questions about prints, collaborations, or night photography? Get in touch with Danni at Nightcaster Photography." />
+</svelte:head>
+
 <div class="max-w-3xl mx-auto px-4 py-24 text-center">
   <h1 class="text-4xl md:text-6xl font-bold mb-8">Get in Touch</h1>
   <p class="text-xl text-gray-400 mb-12">

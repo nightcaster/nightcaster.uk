@@ -26,6 +26,15 @@
       photo.description ||
       `Photography from ${categoryDisplay} collection.`}
   />
+  <meta property="og:title" content="{photo.title} | Nightcaster.uk" />
+  <meta
+    property="og:description"
+    content={photo.meta_description ||
+      photo.description ||
+      `Photography from ${categoryDisplay} collection.`}
+  />
+  <meta property="og:image" content={getOptimizedUrl(photo.filename, 'preview')} />
+  <meta property="og:type" content="article" />
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 py-12 md:py-24">
