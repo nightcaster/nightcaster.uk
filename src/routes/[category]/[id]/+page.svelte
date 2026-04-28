@@ -2,7 +2,9 @@
   import { base } from "$app/paths";
 
   let { data } = $props();
-  const { photo, category, orientation } = data;
+  const { photo, category, orientation, width, height } = data;
+
+  let isLoaded = $state(false);
 
   // Format category name for display
   const categoryDisplay = category
@@ -60,7 +62,28 @@
       class={orientation === "portrait"
         ? "lg:col-span-8 group relative overflow-hidden bg-gray-950 border border-white/5 shadow-2xl"
         : "w-full group relative overflow-hidden bg-gray-950 border border-white/5 shadow-2xl"}
+      style="aspect-ratio: {width} / {height};"
     >
+      {#if !isLoaded}
+        <div
+          class="absolute inset-0 bg-gray-900 animate-pulse flex items-center justify-center"
+        >
+          <svg
+            class="w-12 h-12 text-white/10"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+            />
+          </svg>
+        </div>
+      {/if}
+
       <img
         src={getOptimizedUrl(photo.filename, "preview")}
         srcset="{getOptimizedUrl(
@@ -71,7 +94,10 @@
           ? "(max-width: 1024px) 100vw, 800px"
           : "100vw"}
         alt={photo.title}
-        class="w-full h-auto mx-auto"
+        class="w-full h-full object-cover transition-opacity duration-700 {isLoaded
+          ? 'opacity-100'
+          : 'opacity-0'}"
+        onload={() => (isLoaded = true)}
       />
 
       <!-- Subtle highlight on hover -->

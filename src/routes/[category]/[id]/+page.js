@@ -32,10 +32,14 @@ export async function load({ params }) {
     const manifest = (await import('$lib/data/manifest.json')).default;
     const details = manifest[photo.filename];
     const orientation = details?.orientation || 'landscape';
+    const width = details?.width;
+    const height = details?.height;
 
     return {
         photo,
         category,
-        orientation
+        orientation,
+        width,
+        height
     };
 }
