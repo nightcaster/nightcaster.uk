@@ -8,7 +8,7 @@
 </script>
 
 <div
-  class="group relative overflow-hidden rounded-xl bg-gray-900 border border-white/5 transition-all duration-500 hover:border-indigo-500/50 hover:shadow-[0_0_30px_rgba(79,70,229,0.2)]"
+  class="group relative overflow-hidden rounded-xl bg-gray-900 border border-white/5 transition-all duration-500 hover:border-sky-500/50 hover:shadow-[0_0_30px_rgba(8,145,178,0.2)]"
 >
   <div class="aspect-square overflow-hidden bg-gray-950">
     <img
@@ -39,7 +39,7 @@
     >
       <a
         href="{base}/{category}/{photo.id}"
-        class="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-full hover:bg-indigo-500 transition-colors"
+        class="px-4 py-2 bg-sky-600 text-white text-xs font-bold rounded-full hover:bg-sky-500 transition-colors"
       >
         View Details
       </a>

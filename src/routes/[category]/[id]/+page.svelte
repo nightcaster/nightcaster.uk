@@ -31,7 +31,7 @@
   <nav class="mb-8">
     <a
       href="{base}/{category}"
-      class="inline-flex items-center text-gray-400 hover:text-indigo-400 transition-colors group"
+      class="inline-flex items-center text-gray-400 hover:text-sky-400 transition-colors group"
     >
       <svg
         class="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform"
@@ -76,7 +76,7 @@
 
       <!-- Subtle highlight on hover -->
       <div
-        class="absolute inset-0 bg-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+        class="absolute inset-0 bg-sky-500/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
       ></div>
     </div>
 
@@ -92,7 +92,7 @@
         >
           {photo.title}
         </h1>
-        <div class="h-1.5 w-20 bg-indigo-600 rounded-full mb-6"></div>
+        <div class="h-1.5 w-20 bg-sky-600 rounded-full mb-6"></div>
       </div>
 
       {#if photo.description}
@@ -105,7 +105,7 @@
         {#if photo.location}
           <div class="flex items-center text-gray-400">
             <svg
-              class="w-6 h-6 mr-4 text-indigo-500"
+              class="w-6 h-6 mr-4 text-sky-500"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -136,7 +136,7 @@
         {#if photo.date}
           <div class="flex items-center text-gray-400">
             <svg
-              class="w-6 h-6 mr-4 text-indigo-500"
+              class="w-6 h-6 mr-4 text-sky-500"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -160,7 +160,7 @@
 
         <div class="flex items-center text-gray-400">
           <svg
-            class="w-6 h-6 mr-4 text-indigo-500"
+            class="w-6 h-6 mr-4 text-sky-500"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

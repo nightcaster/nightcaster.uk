@@ -2,7 +2,7 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     <div class="aspect-square bg-gray-900 rounded-2xl overflow-hidden border border-white/5">
       <!-- Placeholder for artist photo -->
-      <div class="w-full h-full bg-gradient-to-tr from-gray-800 to-indigo-900/20 flex items-center justify-center">
+      <div class="w-full h-full bg-gradient-to-tr from-gray-800 to-sky-900/20 flex items-center justify-center">
         <span class="text-gray-600 font-bold tracking-widest uppercase">Artist Portrait</span>
       </div>
     </div>
