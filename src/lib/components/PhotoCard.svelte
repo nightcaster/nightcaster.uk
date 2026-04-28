@@ -5,17 +5,23 @@
     const baseName = filename.split(".").slice(0, -1).join(".");
     return `${base}/optimized/${baseName}-${type}.webp`;
   };
+  let isLoaded = $state(false);
 </script>
 
-<div
-  class="group relative overflow-hidden rounded-xl bg-gray-900 border border-white/5 transition-all duration-500 hover:border-sky-500/50 hover:shadow-[0_0_30px_rgba(8,145,178,0.2)]"
+<a
+  href="{base}/{category}/{photo.id}"
+  class="group block relative overflow-hidden rounded-xl bg-gray-900 border border-white/5 transition-all duration-500 hover:border-sky-500/50 hover:shadow-[0_0_30px_rgba(8,145,178,0.2)]"
 >
-  <div class="aspect-square overflow-hidden bg-gray-950">
+  <div class="aspect-square overflow-hidden bg-gray-950 relative">
+    {#if !isLoaded}
+      <div class="absolute inset-0 bg-gray-800 animate-pulse"></div>
+    {/if}
     <img
       src={getOptimizedUrl(photo.filename, "thumbnail")}
       alt={photo.title}
-      class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+      class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 {isLoaded ? 'opacity-100' : 'opacity-0'}"
       loading="lazy"
+      onload={() => (isLoaded = true)}
     />
   </div>
 
@@ -37,12 +43,11 @@
     <div
       class="flex gap-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-150"
     >
-      <a
-        href="{base}/{category}/{photo.id}"
-        class="px-4 py-2 bg-sky-600 text-white text-xs font-bold rounded-full hover:bg-sky-500 transition-colors"
+      <span
+        class="px-4 py-2 bg-sky-600 text-white text-xs font-bold rounded-full group-hover:bg-sky-500 transition-colors inline-block"
       >
         View Details
-      </a>
+      </span>
     </div>
   </div>
-</div>
+</a>
