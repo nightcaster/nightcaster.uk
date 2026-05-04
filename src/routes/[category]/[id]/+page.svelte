@@ -140,10 +140,10 @@
         : "w-full max-w-4xl space-y-8"}
     >
       <div>
-        <h1 class="text-4xl tracking-tighter text-white mb-4">
+        <h1 class="text-3xl tracking-tight text-white mb-4">
           {photo.title}
         </h1>
-        <div class="h-1.5 w-20 bg-sky-600 rounded-full mb-6"></div>
+        <div class="h-1 w-8/12 bg-sky-500 rounded-full mb-6"></div>
       </div>
 
       {#if photo.description}
@@ -159,8 +159,8 @@
               class="block text-xs uppercase tracking-widest text-gray-500 mb-1"
               >Category</span
             >
-            <a 
-              href="{base}/{category}" 
+            <a
+              href="{base}/{category}"
               class="text-white font-medium hover:text-sky-400 transition-colors duration-300"
             >
               {categoryDisplay}
