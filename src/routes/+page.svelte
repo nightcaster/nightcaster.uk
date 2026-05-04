@@ -20,13 +20,14 @@
 <section
   class="relative h-[80vh] flex items-center justify-center overflow-hidden"
 >
-  <div
-    class="absolute inset-0 bg-gradient-to-b from-transparent to-black z-10"
-  ></div>
-
   <!-- Background Pattern/Image -->
+  <img
+    src="/images/light-painting/sola-arbor.jpg"
+    alt="Sola Arbor"
+    class="absolute inset-0 w-full h-full object-cover"
+  />
   <div
-    class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-from)_0%,_transparent_100%)] from-sky-500/10 to-transparent"
+    class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"
   ></div>
 
   <div class="relative z-20 text-center px-4">
@@ -37,7 +38,7 @@
       >
     </h1>
     <p
-      class="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-10 font-light"
+      class="text-xl md:text-2xl text-gray-100 max-w-2xl mx-auto mb-10 font-light"
     >
       Exploring the intersection of light and shadow through long exposure,
       nightscapes, and light painting.
@@ -51,8 +52,13 @@
       href="/light-painting"
       class="group relative aspect-[4/5] overflow-hidden rounded-2xl bg-gray-900 border border-white/5"
     >
+      <img
+        src="/images/light-painting/purple-stone.jpg"
+        alt="Light Painting"
+        class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-80"
+      />
       <div
-        class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"
+        class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"
       ></div>
       <div class="absolute bottom-8 left-8 z-20">
         <h2 class="text-3xl font-bold text-white mb-2">Light Painting</h2>
@@ -67,8 +73,13 @@
       href="/nightscapes"
       class="group relative aspect-[4/5] overflow-hidden rounded-2xl bg-gray-900 border border-white/5"
     >
+      <img
+        src="/images/nightscapes/summer-solstice.jpg"
+        alt="Nightscapes"
+        class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-80"
+      />
       <div
-        class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"
+        class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"
       ></div>
       <div class="absolute bottom-8 left-8 z-20">
         <h2 class="text-3xl font-bold text-white mb-2">Nightscapes</h2>
@@ -83,8 +94,13 @@
       href="/landscapes"
       class="group relative aspect-[4/5] overflow-hidden rounded-2xl bg-gray-900 border border-white/5"
     >
+      <img
+        src="/images/landscapes/helping-hand.jpg"
+        alt="Landscapes"
+        class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-80"
+      />
       <div
-        class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"
+        class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent z-10"
       ></div>
       <div class="absolute bottom-8 left-8 z-20">
         <h2 class="text-3xl font-bold text-white mb-2">Landscapes</h2>
