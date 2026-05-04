@@ -30,12 +30,10 @@
   ></div>
 
   <div class="relative z-20 text-center px-4">
-    <h1
-      class="text-5xl md:text-8xl font-black tracking-tighter text-white mb-6"
-    >
-      CAPTURING THE <span
+    <h1 class="text-5xl font-bold tracking-tighter text-white mb-6 uppercase">
+      Exploring the <span
         class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-500 inline-block pr-1"
-        >DARKNESS</span
+        >Darkness</span
       >
     </h1>
     <p
@@ -44,20 +42,6 @@
       Exploring the intersection of light and shadow through long exposure,
       nightscapes, and light painting.
     </p>
-    <div class="flex flex-wrap justify-center gap-4">
-      <a
-        href="/light-painting"
-        class="px-8 py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105"
-      >
-        Explore Galleries
-      </a>
-      <a
-        href="/about"
-        class="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-full backdrop-blur-sm transition-all duration-300"
-      >
-        The Artist
-      </a>
-    </div>
   </div>
 </section>
 

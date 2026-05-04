@@ -84,7 +84,7 @@
 {/if}
 
 <div
-  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+  class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
   use:dndzone={{ items, flipDurationMs, dragDisabled: !dev }}
   onconsider={handleDndConsider}
   onfinalize={handleDndFinalize}
