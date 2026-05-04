@@ -3,7 +3,7 @@
   import PhotoGrid from "$lib/components/PhotoGrid.svelte";
 
   const samplePhoto = {
-    id: "styleguide-sample",
+    id: "waypoint",
     title: "Enchanted Night Forest",
     filename: "landscapes/fishermans-forgotten-friend.jpg", // Using an existing one for reference, though it might not exist in optimized
     location: "Peak District, UK",
