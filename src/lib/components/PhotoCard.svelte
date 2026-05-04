@@ -35,21 +35,5 @@
     >
       {photo.title}
     </h3>
-    {#if photo.location || photo.date}
-      <p
-        class="text-gray-300 text-sm mb-3 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-75"
-      >
-        {photo.location}{photo.location && photo.date ? " • " : ""}{photo.date}
-      </p>
-    {/if}
-    <!-- <div
-      class="flex gap-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-150"
-    >
-      <span
-        class="px-4 py-2 bg-sky-600 text-white text-xs font-bold rounded-full group-hover:bg-sky-500 transition-colors inline-block"
-      >
-        View Details
-      </span>
-    </div> -->
   </div>
 </a>

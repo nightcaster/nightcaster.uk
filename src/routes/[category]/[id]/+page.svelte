@@ -2,7 +2,7 @@
   import { base } from "$app/paths";
 
   let { data } = $props();
-  
+
   let isLoaded = $state(false);
   let isMissing = $state(false);
 
@@ -13,10 +13,12 @@
   const height = $derived(data.height);
 
   // Format category name for display
-  const categoryDisplay = $derived(category
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" "));
+  const categoryDisplay = $derived(
+    category
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" "),
+  );
 
   const getOptimizedUrl = (filename, type) => {
     const baseName = filename.split(".").slice(0, -1).join(".");
@@ -47,34 +49,14 @@
       photo.description ||
       `Photography from ${categoryDisplay} collection.`}
   />
-  <meta property="og:image" content={getOptimizedUrl(photo.filename, 'preview')} />
+  <meta
+    property="og:image"
+    content={getOptimizedUrl(photo.filename, "preview")}
+  />
   <meta property="og:type" content="article" />
 </svelte:head>
 
-<div class="max-w-7xl mx-auto px-4 py-12 md:py-24">
-  <!-- Breadcrumbs / Back button -->
-  <nav class="mb-8">
-    <a
-      href="{base}/{category}"
-      class="inline-flex items-center text-gray-400 hover:text-sky-400 transition-colors group"
-    >
-      <svg
-        class="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M15 19l-7-7 7-7"
-        />
-      </svg>
-      Back to {categoryDisplay}
-    </a>
-  </nav>
-
+<div class="max-w-7xl mx-auto px-4 py-6 md:py-8">
   <div
     class={orientation === "portrait"
       ? "grid grid-cols-1 lg:grid-cols-12 gap-12 items-start"
@@ -85,15 +67,31 @@
       class={orientation === "portrait"
         ? "lg:col-span-8 group relative overflow-hidden bg-gray-950 border border-white/5 shadow-2xl"
         : "w-full group relative overflow-hidden bg-gray-950 border border-white/5 shadow-2xl"}
-      style="aspect-ratio: {width || (orientation === 'portrait' ? 2/3 : 3/2)} / {height || 1};"
+      style="aspect-ratio: {width ||
+        (orientation === 'portrait' ? 2 / 3 : 3 / 2)} / {height || 1};"
     >
       {#if isMissing}
-        <div class="absolute inset-0 flex flex-col items-center justify-center bg-gray-900 border-2 border-dashed border-gray-800 rounded-lg">
-          <svg class="w-20 h-20 text-gray-700 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center bg-gray-900 border-2 border-dashed border-gray-800 rounded-lg"
+        >
+          <svg
+            class="w-20 h-20 text-gray-700 mb-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+            />
           </svg>
           <p class="text-gray-500 font-medium">Image Missing</p>
-          <code class="mt-2 px-3 py-1 bg-black/50 text-sky-500 text-xs rounded border border-white/5">static/images/{photo.filename}</code>
+          <code
+            class="mt-2 px-3 py-1 bg-black/50 text-sky-500 text-xs rounded border border-white/5"
+            >static/images/{photo.filename}</code
+          >
         </div>
       {:else}
         {#if !isLoaded}

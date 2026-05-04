@@ -1,42 +1,63 @@
-# sv
+# Nightcaster Photography
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A premium photography portfolio built with SvelteKit and TailwindCSS.
 
-## Creating a project
+## ✨ Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **High-Performance Image Loading**: Optimized WebP images with lazy loading and placeholder pulses.
+- **Dynamic Categories**: Organized galleries for Landscapes, Nightscapes, and Light Painting.
+- **Dev-Mode Reordering**: (Coming soon) Drag and drop photos to change their order on the live site.
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## 📸 Image Management
 
-To recreate this project with the same configuration:
+### Adding New Images
 
-```sh
-# recreate this project
-npx sv@0.15.1 create --template minimal --types jsdoc --add tailwindcss="plugins:none" --install npm .
-```
+1. **Upload**: Place your high-resolution source images in `static/images/[category]/`.
+   - Categories: `landscapes`, `nightscapes`, `light-painting`.
+2. **Configure**: Add the image details to the corresponding JSON file in `src/lib/data/[category].json`.
+   ```json
+   {
+     "id": "my-new-photo",
+     "title": "My New Photo",
+     "filename": "landscapes/my-photo.jpg",
+     "location": "Peak District",
+     "date": "2024"
+   }
+   ```
+3. **Optimize**: Run the optimization script to generate thumbnails and optimized previews:
+   ```sh
+   npm run optimize-images
+   ```
+   This will automatically update the dimensions and orientation in your `.json` files.
 
-## Developing
+### Data Structure
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **Source Images**: `static/images/`
+- **Optimized Output**: `static/optimized/` (Auto-generated, git-ignored)
+- **Metadata**: `src/lib/data/` (Where titles, locations, and order are stored)
+
+## 🛠️ Development
+
+Start the development server:
 
 ```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+### Reordering Photos
 
-To create a production version of your app:
+When running in **development mode**, you can drag and drop photos on any category page to change their order. A "Save Order" button will appear at the top to persist your changes back to the JSON files.
+
+## 🚀 Building for Production
+
+To create a production version:
 
 ```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the build:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```sh
+npm run preview
+```
