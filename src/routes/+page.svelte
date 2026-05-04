@@ -14,6 +14,11 @@
     property="og:description"
     content="Exploring the intersection of light and shadow through long exposure, nightscapes, and light painting photography by Dan Nightingale."
   />
+  <meta property="og:url" content="https://nightcaster.uk" />
+  <meta
+    property="og:image"
+    content="https://nightcaster.uk/images/light-painting/sola-arbor.jpg"
+  />
   <meta property="og:type" content="website" />
 </svelte:head>
 

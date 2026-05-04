@@ -46,7 +46,11 @@
         </p>
         <hr class="h-px my-8 opacity-20" />
         <p class="text-gray-300 mb-4 leading-relaxed">
-          <a href="/light-painting">Light painting</a>
+          <a
+            href="/light-painting"
+            class="text-white border-b border-sky-500/50 hover:border-sky-500 transition-colors"
+            >Light painting</a
+          >
           involves the application of light to select areas of a scene whilst taking
           a long-exposure photograph. This affords incredible control over the final
           image, and no two light painted images are the same, even if taken straight
@@ -60,7 +64,11 @@
         </p>
         <hr class="h-px my-8 opacity-20" />
         <p class="text-gray-300 mb-4 leading-relaxed">
-          <a href="/nightscapes">Nightscapes</a>
+          <a
+            href="/nightscapes"
+            class="text-white border-b border-sky-500/50 hover:border-sky-500 transition-colors"
+            >Nightscapes</a
+          >
           to me are not as simple as "landscape photographs taken at night", they
           can be any subject with any field of view and include natural and or artificial
           light, but they have not had any additional light painted into them by

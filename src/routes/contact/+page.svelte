@@ -39,21 +39,38 @@
           Instagram, where I'm most active, or via the other links below.
         </p>
 
-        <div class="flex flex-wrap gap-8 text-gray-400">
-          <a
-            href="https://instagram.com/nightcaster.uk/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-white transition-all duration-300 transform hover:scale-105"
-            >Instagram</a
-          >
-          <a
-            href="https://facebook.com/nightcaster.uk/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-white transition-all duration-300 transform hover:scale-105"
-            >Facebook</a
-          >
+        <div class="space-y-6">
+          <div class="flex flex-col space-y-2">
+            <span class="text-xs text-sky-500 uppercase tracking-widest font-bold">Email</span>
+            <a
+              href="mailto:dan@nightcaster.uk"
+              class="text-2xl md:text-3xl text-white hover:text-sky-400 transition-colors duration-300 break-all"
+            >
+              dan@nightcaster.uk
+            </a>
+          </div>
+
+          <div class="flex flex-col space-y-4">
+            <span class="text-xs text-gray-500 uppercase tracking-widest font-bold">Social</span>
+            <div class="flex flex-wrap gap-8 text-gray-400">
+              <a
+                href="https://instagram.com/nightcaster.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+              >
+                Instagram
+              </a>
+              <a
+                href="https://facebook.com/nightcaster.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+              >
+                Facebook
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
