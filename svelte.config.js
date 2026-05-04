@@ -16,17 +16,6 @@ const config = {
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-		},
-		prerender: {
-			handleHttpError: ({ path, referrer, message }) => {
-				// ignore deliberate link to non-existent page
-				if (path === '/landscapes/styleguide-sample' || path === '/landscapes/styleguide-sample/') {
-					return;
-				}
-
-				// otherwise fail the build
-				throw new Error(message);
-			}
 		}
 	}
 };
