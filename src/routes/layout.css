@@ -14,9 +14,13 @@
     font-display: swap;
   }
 
+  :root {
+    --font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+
   body {
     @apply bg-black text-gray-100 antialiased;
-    font-family: 'Raveo', system-ui, -apple-system, sans-serif;
+    font-family: var(--font-family);
   }
 }
 
