@@ -1,7 +1,9 @@
 <script>
 	import './layout.css';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import FontSwitcher from '$lib/components/FontSwitcher.svelte';
 	import { base } from '$app/paths';
+	import { dev } from '$app/environment';
 
 	let { children } = $props();
 </script>
@@ -12,6 +14,10 @@
 	<main class="flex-grow">
 		{@render children()}
 	</main>
+
+	{#if dev}
+		<FontSwitcher />
+	{/if}
 
 	<footer class="bg-black border-t border-white/5 py-12 mt-20">
 		<div class="max-w-7xl mx-auto px-4 text-center">
