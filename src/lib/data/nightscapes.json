@@ -11,10 +11,13 @@
       "aperture": "f/13.0",
       "iso": "100",
       "focal_length": "24mm",
-      "lens": "ef24-105mm f/4l is",
-      "camera": "canon eos 5d"
+      "lens": "EF24-105mm f/4L IS",
+      "camera": "Canon EOS 5D"
     },
-    "meta_description": "The road passes under a bridge with offices above."
+    "meta_description": "The road passes under a bridge with offices above.",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait"
   },
   {
     "id": "circles",
@@ -28,9 +31,12 @@
       "aperture": "f/8.0",
       "iso": "100",
       "focal_length": "38mm",
-      "camera": "cybershot"
+      "camera": "CYBERSHOT"
     },
-    "meta_description": "A close up of the Mollusc sculpture in Chesterfield, Derbyshire"
+    "meta_description": "A close up of the Mollusc sculpture in Chesterfield, Derbyshire",
+    "width": 1707,
+    "height": 1280,
+    "orientation": "landscape"
   },
   {
     "id": "eosophobia",
@@ -44,9 +50,12 @@
       "aperture": "f/4.0",
       "iso": "800",
       "focal_length": "408mm",
-      "camera": "cybershot"
+      "camera": "CYBERSHOT"
     },
-    "meta_description": "A silhouette stands in front of a burning sky"
+    "meta_description": "A silhouette stands in front of a burning sky",
+    "width": 1914,
+    "height": 1280,
+    "orientation": "landscape"
   },
   {
     "id": "heage-windmill",
@@ -60,10 +69,13 @@
       "aperture": "f/4.5",
       "iso": "400",
       "focal_length": "67mm",
-      "lens": "ef24-105mm f/4l is",
-      "camera": "canon eos 5d"
+      "lens": "EF24-105mm f/4L IS",
+      "camera": "Canon EOS 5D"
     },
-    "meta_description": "The windmill at Heage stands in front of a graduated night sky"
+    "meta_description": "The windmill at Heage stands in front of a graduated night sky",
+    "width": 1920,
+    "height": 1280,
+    "orientation": "landscape"
   },
   {
     "id": "impending-doom",
@@ -77,9 +89,12 @@
       "aperture": "f/2.0",
       "iso": "100",
       "focal_length": "97mm",
-      "camera": "cybershot"
+      "camera": "CYBERSHOT"
     },
-    "meta_description": "A car crests a hill on the moors near Sheffield"
+    "meta_description": "A car crests a hill on the moors near Sheffield",
+    "width": 1707,
+    "height": 1280,
+    "orientation": "landscape"
   },
   {
     "id": "lakeside",
@@ -93,9 +108,12 @@
       "aperture": "f/3.5",
       "iso": "200",
       "focal_length": "164mm",
-      "camera": "cybershot"
+      "camera": "CYBERSHOT"
     },
-    "meta_description": "Some trees are reflected in a pond to create a circle"
+    "meta_description": "Some trees are reflected in a pond to create a circle",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait"
   },
   {
     "id": "lunar-eclipse",
@@ -109,7 +127,10 @@
       "iso": "6400",
       "camera": "canon eos 6d"
     },
-    "meta_description": "The rare blood moon supermoon total lunar eclipse from September 2015"
+    "meta_description": "The rare blood moon supermoon total lunar eclipse from September 2015",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait"
   },
   {
     "id": "stainsby-2006",
@@ -123,10 +144,13 @@
       "aperture": "f/4.0",
       "iso": "800",
       "focal_length": "16mm",
-      "lens": "ef16-35mm f/2.8l usm",
-      "camera": "canon eos 5d"
+      "lens": "EF16-35mm f/2.8L USM",
+      "camera": "Canon EOS 5D"
     },
-    "meta_description": "A group of friends sit around outside a tent at Stainsby 2006"
+    "meta_description": "A group of friends sit around outside a tent at Stainsby 2006",
+    "width": 1920,
+    "height": 1280,
+    "orientation": "landscape"
   },
   {
     "id": "star-disk",
@@ -140,10 +164,13 @@
       "aperture": "f/5.0",
       "iso": "1600",
       "focal_length": "24mm",
-      "lens": "ef24-105mm f/4l is",
-      "camera": "canon eos 6d"
+      "lens": "EF24-105mm f/4L IS",
+      "camera": "Canon EOS 6D"
     },
-    "meta_description": "A photo showing the view whilst at the StarDisk in Wirksworth, Derbyshire"
+    "meta_description": "A photo showing the view whilst at the StarDisk in Wirksworth, Derbyshire",
+    "width": 1920,
+    "height": 1280,
+    "orientation": "landscape"
   },
   {
     "id": "star-gazer",
@@ -157,10 +184,13 @@
       "aperture": "f/5.0",
       "iso": "1600",
       "focal_length": "24mm",
-      "lens": "ef24-105mm f/4l is",
-      "camera": "canon eos 6d"
+      "lens": "EF24-105mm f/4L IS",
+      "camera": "Canon EOS 6D"
     },
-    "meta_description": "A photo showing someone gazing at the stars whilst at the StarDisk in Wirksworth, Derbyshire"
+    "meta_description": "A photo showing someone gazing at the stars whilst at the StarDisk in Wirksworth, Derbyshire",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait"
   },
   {
     "id": "summer-solstice",
@@ -174,10 +204,13 @@
       "aperture": "f/7.1",
       "iso": "320",
       "focal_length": "24mm",
-      "lens": "ef24-105mm f/4l is",
-      "camera": "canon eos 5d"
+      "lens": "EF24-105mm f/4L IS",
+      "camera": "Canon EOS 5D"
     },
-    "meta_description": "Long exposure of the summer solstice at Stonehenge in 2009"
+    "meta_description": "Long exposure of the summer solstice at Stonehenge in 2009",
+    "width": 1920,
+    "height": 960,
+    "orientation": "landscape"
   },
   {
     "id": "trapped",
@@ -191,9 +224,120 @@
       "aperture": "f/5.6",
       "iso": "100",
       "focal_length": "32mm",
-      "lens": "ef24-105mm f/4l is",
-      "camera": "canon eos 5d"
+      "lens": "EF24-105mm f/4L IS",
+      "camera": "Canon EOS 5D"
     },
-    "meta_description": "A tree viewed from within Sutton Scarsdale Hall"
+    "meta_description": "A tree viewed from within Sutton Scarsdale Hall",
+    "width": 960,
+    "height": 1280,
+    "orientation": "portrait"
+  },
+  {
+    "id": "west-bank",
+    "title": "West Bank",
+    "description": "Shortlisted in the Matlock Bath Pro Loco Photography Competition 2021",
+    "filename": "nightscapes/west-bank.jpg",
+    "date": "",
+    "location": "",
+    "exif": {
+      "shutter_speed": "60 sec",
+      "aperture": "f/13.0",
+      "iso": "400",
+      "focal_length": "24mm",
+      "lens": "EF24-105mm f/4L IS",
+      "camera": "Canon EOS 6D"
+    },
+    "meta_description": "",
+    "width": 1440,
+    "height": 1920,
+    "orientation": "portrait"
+  },
+  {
+    "id": "winding",
+    "title": "Winding",
+    "description": "Shortlisted in the Matlock Bath Pro Loco Photography Competition 2021",
+    "filename": "nightscapes/winding.jpg",
+    "date": "",
+    "location": "",
+    "exif": {
+      "shutter_speed": "10 sec",
+      "aperture": "f/9.0",
+      "iso": "400",
+      "focal_length": "100mm",
+      "lens": "EF70-200mm f/4L",
+      "camera": "Canon EOS 6D"
+    },
+    "meta_description": "",
+    "width": 1440,
+    "height": 1920,
+    "orientation": "portrait"
+  },
+  {
+    "id": "worship",
+    "title": "Worship",
+    "description": "Shortlisted in the Matlock Bath Pro Loco Photography Competition 2021",
+    "filename": "nightscapes/worship.jpg",
+    "date": "",
+    "location": "",
+    "exif": {
+      "shutter_speed": "27 sec",
+      "iso": "2500",
+      "camera": "Canon EOS 6D"
+    },
+    "meta_description": "",
+    "width": 1440,
+    "height": 1920,
+    "orientation": "portrait"
+  },
+  {
+    "id": "magical-matlock-bath",
+    "title": "Magical Matlock Bath",
+    "description": "What could be better than a lovely big mug of tea while sitting and watching the aurora dance in the sky?",
+    "filename": "nightscapes/magical-matlock-bath.jpg",
+    "date": "",
+    "location": "",
+    "exif": {
+      "shutter_speed": "2.9 sec",
+      "iso": "3200",
+      "camera": "Canon EOS 6D"
+    },
+    "meta_description": "",
+    "width": 1440,
+    "height": 1920,
+    "orientation": "portrait"
+  },
+  {
+    "id": "celestial-canvas",
+    "title": "Celestial Canvas",
+    "description": "The aurora dance in the sky over artists corner in the lower left and Matlock in the distance.",
+    "filename": "nightscapes/celestial-canvas.jpg",
+    "date": "",
+    "location": "",
+    "exif": {
+      "shutter_speed": "1.3 sec",
+      "iso": "3200",
+      "camera": "Canon EOS 6D"
+    },
+    "meta_description": "",
+    "width": 1920,
+    "height": 1440,
+    "orientation": "landscape"
+  },
+  {
+    "id": "picta-nox",
+    "title": "Picta Nox",
+    "description": "Picta Nox (Painted Night). The aurora dance in the sky over Matlock as seen from High Tor.",
+    "filename": "nightscapes/picta-nox.jpg",
+    "date": "",
+    "location": "",
+    "exif": {
+      "shutter_speed": "1.2 sec",
+      "iso": "3200",
+      "camera": "Canon EOS 6D"
+    },
+    "meta_description": "",
+    "width": 1920,
+    "height": 1440,
+    "orientation": "landscape"
   }
 ]

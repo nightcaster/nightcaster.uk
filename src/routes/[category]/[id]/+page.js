@@ -28,13 +28,9 @@ export async function load({ params }) {
         throw error(404, 'Photo not found');
     }
 
-    // Load manifest to get orientation
-    const manifest = (await import('$lib/data/manifest.json')).default;
-    const details = manifest[photo.filename];
-    const orientation = details?.orientation || 'landscape';
-    const width = details?.width;
-    const height = details?.height;
-
+    // Dimensions and orientation are now included directly in the photo object
+    const { orientation = 'landscape', width, height } = photo;
+ 
     return {
         photo,
         category,

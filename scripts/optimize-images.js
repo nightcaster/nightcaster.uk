@@ -85,9 +85,36 @@ async function main() {
     }
   }
 
-  // Save manifest
-  const manifestPath = path.resolve('src/lib/data/manifest.json');
-  await fs.writeFile(manifestPath, JSON.stringify(manifest, null, 2));
+  // Update category JSON files with manifest data
+  const categoryPaths = {
+    landscapes: path.resolve('src/lib/data/landscapes.json'),
+    nightscapes: path.resolve('src/lib/data/nightscapes.json'),
+    'light-painting': path.resolve('src/lib/data/light-painting.json')
+  };
+
+  for (const [cat, filePath] of Object.entries(categoryPaths)) {
+    if (existsSync(filePath)) {
+      const data = JSON.parse(await fs.readFile(filePath, 'utf-8'));
+      let updated = false;
+
+      for (const item of data) {
+        if (manifest[item.filename]) {
+          const m = manifest[item.filename];
+          if (item.width !== m.width || item.height !== m.height || item.orientation !== m.orientation) {
+            item.width = m.width;
+            item.height = m.height;
+            item.orientation = m.orientation;
+            updated = true;
+          }
+        }
+      }
+
+      if (updated) {
+        await fs.writeFile(filePath, JSON.stringify(data, null, 2));
+        console.log(`📝 Updated dimensions in ${cat}.json`);
+      }
+    }
+  }
 
   console.log(`✅ Done! Processed: ${processedCount}, Skipped (cached): ${skippedCount}`);
 }
